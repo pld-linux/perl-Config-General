@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	Config
-%define		pnam	General
+%define	pdir	Config
+%define	pnam	General
 Summary:	Config::General - generic config module
 Summary(pl):	Config::General - ogólny modu³ konfiguracji
 Name:		perl-Config-General
