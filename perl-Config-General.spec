@@ -2,9 +2,10 @@
 %define		pdir	Config
 %define		pnam	General
 Summary:	Config::General - Generic Config Module
+Summary(pl):	Config::General - ogóly modu³ konfiguracji
 Name:		perl-Config-General
 Version:	1.36
-Release:	3
+Release:	4
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -15,9 +16,15 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This module opens a config file and parses it's contents for you. The
-B<new> method requires one parameter which needs to be a filename. The
-method B<getall> returns a hash which contains all options and it's
+method new requires one parameter which needs to be a filename. The
+method getall returns a hash which contains all options and it's
 associated values of your config file.
+
+%description -l pl
+Ten modu³ otwiera plik konfiguracyjny i analizuje jego zawarto¶æ.
+Metoda new wymaga jednego parametru, którym musi byæ nazwa pliku.
+Metoda getall zwraca hasza zawieraj±cego wszystkie opcje i zwi±zane
+z nimi warto¶ci z pliku konfiguracyjnego.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
