@@ -8,7 +8,7 @@
 Summary:	Config::General - Generic Config Module
 Summary(pl):	Config::General - ogólny modu³ konfiguracji
 Name:		perl-Config-General
-Version:	2.09
+Version:	2.11
 Release:	1
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
