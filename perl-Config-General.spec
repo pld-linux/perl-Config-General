@@ -10,7 +10,8 @@ Summary(pl):	Config::General - ogólny modu³ konfiguracji
 Name:		perl-Config-General
 Version:	2.26
 Release:	1
-License:	GPL or Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	c83dd51cbc26cba7a3d6430c2c2f7b8c
