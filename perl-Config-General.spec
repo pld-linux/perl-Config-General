@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Config
 %define		pnam	General
-Summary:	Config::General - Generic Config Module
+Summary:	Config::General - generic config module
 Summary(pl):	Config::General - ogólny modu³ konfiguracji
 Name:		perl-Config-General
 Version:	2.26
