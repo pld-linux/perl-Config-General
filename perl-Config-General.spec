@@ -8,8 +8,8 @@
 Summary:	Config::General - Generic Config Module
 Summary(pl):	Config::General - ogólny modu³ konfiguracji
 Name:		perl-Config-General
-Version:	2.15
-Release:	2
+Version:	2.18
+Release:	1
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
