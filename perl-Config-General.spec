@@ -5,7 +5,7 @@ Summary:	Config-General perl module
 Summary(pl):	Modu³ perla Config-General
 Name:		perl-Config-General
 Version:	1.32
-Release:	0.1
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
