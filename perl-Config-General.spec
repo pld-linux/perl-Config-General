@@ -1,12 +1,16 @@
+#
+# Conditional build:
+# _without_tests - do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Config
 %define		pnam	General
 Summary:	Config::General - Generic Config Module
-Summary(pl):	Config::General - ogóly modu³ konfiguracji
+Summary(pl):	Config::General - ogólny modu³ konfiguracji
 Name:		perl-Config-General
-Version:	1.36
-Release:	4
-License:	GPL
+Version:	2.09
+Release:	1
+License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6.1
@@ -32,6 +36,7 @@ z nimi warto¶ci z pliku konfiguracyjnego.
 %build
 perl Makefile.PL
 %{__make}
+%{!?_without_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
