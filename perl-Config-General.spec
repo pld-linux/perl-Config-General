@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Config
 %define		pnam	General
-Summary:	Config-General perl module
-Summary(pl):	Modu³ perla Config-General
+Summary:	Config::General perl module
+Summary(pl):	Modu³ perla Config::General
 Name:		perl-Config-General
 Version:	1.32
 Release:	1
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Config-General perl module.
+Config::General perl module.
 
 %description -l pl
-Modu³ perla Config-General.
+Modu³ perla Config::General.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
