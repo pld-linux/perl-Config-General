@@ -4,7 +4,7 @@
 Summary:	Config::General perl module
 Summary(pl):	Modu³ perla Config::General
 Name:		perl-Config-General
-Version:	1.32
+Version:	1.36
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
@@ -42,4 +42,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc *.gz
 %dir %{perl_sitelib}/Config
 %{perl_sitelib}/Config/General.pm
+%{perl_sitelib}/Config/General
 %{_mandir}/man3/*
