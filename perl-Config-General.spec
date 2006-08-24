@@ -9,7 +9,7 @@ Summary:	Config::General - generic config module
 Summary(pl):	Config::General - ogólny modu³ konfiguracji
 Name:		perl-Config-General
 Version:	2.31
-Release:	0.1
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -52,7 +52,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Changelog README
-%{perl_vendorlib}/Config/General.pm
+%doc Changelog example.cfg
+%{perl_vendorlib}/Config/*.pm
 %{perl_vendorlib}/Config/General
 %{_mandir}/man3/*
