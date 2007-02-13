@@ -6,7 +6,7 @@
 %define		pdir	Config
 %define		pnam	General
 Summary:	Config::General - generic config module
-Summary(pl.UTF-8):   Config::General - ogólny moduł konfiguracji
+Summary(pl.UTF-8):	Config::General - ogólny moduł konfiguracji
 Name:		perl-Config-General
 Version:	2.31
 Release:	1
