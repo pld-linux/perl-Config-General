@@ -8,13 +8,13 @@
 Summary:	Config::General - generic config module
 Summary(pl.UTF-8):	Config::General - ogólny moduł konfiguracji
 Name:		perl-Config-General
-Version:	2.31
+Version:	2.37
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	5d51723f6fb36cf943934b80c261d680
+# Source0-md5:	5acba3605c33cce32f032459b006f445
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
