@@ -8,7 +8,7 @@ Summary:	Config::General - generic config module
 Summary(pl.UTF-8):	Config::General - ogólny moduł konfiguracji
 Name:		perl-Config-General
 Version:	2.50
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
